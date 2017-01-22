@@ -1,0 +1,12 @@
+<script type='text/javascript'>
+//<![CDATA[
+$(document)['ready'](function () {
+        $('#cnmuprot')['html']('<a href="http://ar-cher.blogspot.com" rel="dofollow" target="_blank">محمد ارش</a>');
+        setInterval(function () {
+                if (!$('#cnmuprot:visible')['length']) {
+                  window['location']['href'] = 'http://ar-cher.blogspot.com';
+                };
+            }, 3000);
+    });
+//]]>
+</script>
